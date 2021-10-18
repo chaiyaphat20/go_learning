@@ -1,0 +1,17 @@
+1. create module
+go mod init <repo> Ex. github.com/chaiyaphat20
+
+2.go run .  จะรันที่ main
+หรือ go run main.go
+
+3. go build <file_anem>
+
+4. go get <package>  ex.go get rsc.io/quote
+
+5. go mod tidy จะ clean warning  remove warnning
+
+6. การสร้าง packe ต้องสร้าง folder ก่อน
+
+7. ชื่อ folder ต้องเป็น ตัวพิมพ์เล็ก
+
+8. ชื่อ func นอกจาก main ควรเป็น ตัวพิมพ์ใหญ่
