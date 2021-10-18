@@ -1,10 +1,11 @@
 package main
 
 import (
-	"github.com/chaiyaphat20/functions"
+	"github.com/chaiyaphat20/flowcontrol"
 )
 
 func main() {
 	// variables.Learn()
-	functions.Learn()
+	// functions.Learn()
+	flowcontrol.Learn()
 }
