@@ -1,9 +1,10 @@
 package main
 
 import (
-	"github.com/chaiyaphat20/variables"
+	"github.com/chaiyaphat20/functions"
 )
 
 func main() {
-	variables.Learn()
+	// variables.Learn()
+	functions.Learn()
 }
