@@ -4,6 +4,7 @@ import (
 	"fmt"
 	"io/ioutil"
 	"runtime"
+	"time"
 )
 
 func Learn() {
@@ -32,5 +33,15 @@ func Learn() {
 	} else {
 		constent := string(b)
 		fmt.Println(constent)
+	}
+
+	//for
+	for j := 5; j >= 0; j-- {
+		if j == 0 {
+			fmt.Println("Boom!")
+			break
+		}
+		fmt.Println(j)
+		time.Sleep(1 * time.Second)
 	}
 }

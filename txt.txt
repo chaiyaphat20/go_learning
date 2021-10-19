@@ -18,3 +18,10 @@ go mod init <repo> Ex. github.com/chaiyaphat20
 
 8. ชื่อ func นอกจาก main ควรเป็น ตัวพิมพ์ใหญ่
 
+9. https://mholt.github.io/json-to-go/
+
+10 go mod dowload  // npm  i
+
+11 pointer คือตัวแปรที่ใช้เก็บ value and adress ของตัวแปรอื่น
+ - จะ pass by value เสมอ
+
